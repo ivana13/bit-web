@@ -1,0 +1,41 @@
+.h {
+color: red;
+
+text-align: center;
+}
+
+.prva {
+position: relative;
+top: 50px;
+left: 100px;
+margin-bottom: 60px;
+}
+ .druga {
+position: absolute;
+right: 10px;
+top: 15px;
+ }
+
+ .treca {
+     position: absolute;
+     bottom: 0px;
+     
+    
+
+ }
+
+ .treca:hover {
+    opacity: 0.3;
+     bottom: 10px;
+     
+ }
+ div {
+     max-width: 60%;
+     margin: 10px auto;
+     
+ }
+ a {
+position: fixed;
+bottom: 0;
+right: 0;
+ }

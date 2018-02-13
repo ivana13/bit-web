@@ -1,0 +1,67 @@
+div {
+width: 200px;
+height: 200px;
+}
+.prvi {
+ background-color: rgb(109, 109, 236);
+
+}
+
+.drugi {
+background: rgb(219, 71, 71);
+
+}
+ .treci {
+background-color: cadetblue;
+ }
+
+ .cetvrti {
+    background-color: rgb(109, 109, 236);
+ }
+
+ .peti {
+    background: rgb(219, 71, 71);
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+
+ }
+
+ .sesti {
+    background-color: cadetblue;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+ }
+
+ .sedmi {
+    background-color: rgb(109, 109, 236);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+ }
+
+ .wrapp {
+     position: relative;
+     background: rgb(252, 250, 250);
+    
+     width: 100%;
+ }
+
+ .osmi {
+position: absolute;
+background: rgb(219, 71, 71);
+right: 100px;
+top: 100px;
+z-index:1 ;
+ }
+ 
+
+ .deveti {
+position: absolute;
+background-color: cadetblue;
+right: 200px;
+top: 200px;
+
+ }
