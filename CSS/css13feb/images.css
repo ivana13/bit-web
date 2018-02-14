@@ -1,0 +1,22 @@
+img {
+    margin: 25px;
+    display: block;
+}
+
+
+.first {
+    height: 200px;
+    float: right;
+}
+
+.second {
+    width: 200px;
+    clear: both;
+    float: right;
+    display: block;
+}
+
+.third {
+    width: 200px;
+    height: 200px;
+}
