@@ -1,0 +1,17 @@
+$co: red;
+$fon: 30px;
+$bla: rgb(187, 187, 250);
+$border: 4px solid black;
+
+p {
+    background-color: $co;
+    font-size: $fon;
+    color: beige;
+    border: $border;
+    
+
+}
+
+p span {
+    color: $bla;
+}

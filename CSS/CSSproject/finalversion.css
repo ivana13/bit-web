@@ -25,14 +25,14 @@
 
 .banner button {
     display: block;
-    margin: 5% auto;
-    padding: 2.5%;
+    margin: 0 auto;
+    padding: 2%;
     background-color: rgb(65, 148, 225);
-    border-radius: 30px;
+    border-radius: 20px;
     border: none;
     color: white;
-    font-family: "Awesome";
-    font-size: 1.2rem;
+    font-size: 16px;
+    width: 130px;
 }
 
 .logo h1 {
@@ -69,6 +69,7 @@ nav ul {
 
 nav ul li {
     padding: 2% 0;
+
 }
 
 nav ul li:first-child {
@@ -164,7 +165,10 @@ main ul li {
 }
 
 h2 .underline {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
+    padding: 6px;
+    text-align: centerč
+    
 }
 
 footer {
@@ -256,6 +260,8 @@ form button {
     .banner {
         position: relative;
     }
+
+
     .logo {
         position: absolute;
         top: 1%;
@@ -268,7 +274,7 @@ form button {
         margin-bottom: 10%;
     }
     h2 {
-        margin: 10% 0 10% 0;
+        margin: 16% 0 16% 0;
         clear: both;
     }
     nav ul {
@@ -279,6 +285,7 @@ form button {
     }
     nav ul li {
         display: inline;
+        margin: 6px;
     }
     .logo h1 span {
         border-color: white;
@@ -378,25 +385,27 @@ form button {
     }
     .banner button {
         padding: 1% 4%;
+        width: 180px;
     }
     section {
-        width: 30%;
-        margin-left: 7.5%;
+        width: 24%;
+        margin-left: 8%;
+        margin-right: 4%;
     }
     main img {
         width: 25%;
         float: left;
         margin: 0;
-        margin-top: 1.5%;
+        margin-top: 1%;
     }
     section.bottom-section {
         display: block;
         float: left;
-        margin-left: 2%;
-        margin-bottom: 15%;
+        margin-left: 4%;
+        margin-bottom: 10%;
     }
     h2 {
-        margin: 0% 0 3% 0;
+        margin: 6% 0 4% 0;
     }
     nav {
         margin-bottom: 5%;
