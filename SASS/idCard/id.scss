@@ -1,11 +1,13 @@
 $color: red;
-$font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+$font: "Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+$color2: white;
+
 
 body {
     margin: 0;
     padding: 0;
     font-family: $font;
-    background: #e3f2fd;
+    background: $color2;
 }
 
 .container {
@@ -17,7 +19,7 @@ h1 {
     padding: 20px 0;
     text-align: center;
     background: #92709b;
-    color: white;
+    color: $color2;
     background: rgb(51, 192, 87);
     color: $color;
 }
@@ -39,31 +41,32 @@ img {
 table {
     width: 100%;
     color: rgb(160, 125, 218);
-    background: rgb(247, 242, 242);
+    background: $color2;
     border-collapse: collapse;
-}
 
-tr {
-    border-bottom: 1px solid #eee;
-}
+    tr {
+        border-bottom: 1px solid $color2;
+    }
 
-#f {
-    color: $color;
-}
+    #f {
+        color: $color;
+    }
+    #bla {
+        background-color: $color;
+    }
+    td {
 
-#bla {
-    background-color: #d12020;
-}
-
-td span {
-    color: #1ac71a;
-    padding: 5px 0;
-}
-
-td:first-child {
-    width: 300px;
-    padding-left: 10px;
-}
+        span {
+            color: #1ac71a;
+            padding: 5px 0;
+            
+            &:first-child {
+                width: 300px;
+                padding-left: 10px;
+            }
+        }
+    }
+} 
 
 p#footer {
     margin-top: 100px;
