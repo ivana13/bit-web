@@ -1,0 +1,29 @@
+.slajder{
+    margin-top: 5%;
+    padding: 10px;
+    height:500px;
+    background-color: grey;
+}
+
+.margina {
+    margin-top: 2%;
+}
+
+.col-4 .list-group li{
+    background-color: gold;
+}
+
+
+.card {
+    border: 1px solid gray;
+    margin-bottom: 5%;
+}
+
+.card h4 {
+    margin: 5% 5%;
+}
+
+.card-text {
+    margin: 0 5% 5% 5%;
+    padding-bottom: 5%;
+}

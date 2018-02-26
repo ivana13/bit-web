@@ -1,0 +1,10 @@
+.margina {
+    background-color: #ccc;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.visina {
+    height: 150px;
+}
