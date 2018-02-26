@@ -10,3 +10,28 @@
     background-color: $greenish;
 }
 
+.darkblue{
+    background-color: $blueish;
+    color:white;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.darkblue h3 {
+    margin: 10% 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 1em;
+}
+
+.copyright {
+    font-size:.8rem;
+}
+
+.copyright span{
+    color:grey;
+}
+

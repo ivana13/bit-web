@@ -1,12 +1,49 @@
 @import "variables";
 
-.row.white img{
+.white img{
     width:80%;
     display: block;
-    margin:0 auto;
+    margin:3% auto 0 auto;
 }
 
-.row.white h2, p {
+.white h2{
     text-align: center;
-
+    margin-top: 5%;
 }
+
+.white p{
+    text-align: center;
+}
+
+.green.down {
+    margin-top: 5%;
+    padding: 5% 0;
+}
+
+.green h2{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+
+.green p{
+    text-align: center;
+    color: white;
+}
+
+.green.down .textbox{
+    text-align: left;
+}
+
+.findout{
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+   
+}
+
+.margina {
+    margin-bottom: 5%;
+}
+
+
