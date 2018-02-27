@@ -4,6 +4,11 @@
     width:80%;
     display: block;
     margin:3% auto 0 auto;
+    @media (min-width: 768px){  
+            width: 95%;
+            display: block;
+            margin: 8% auto 0 auto;  
+    }
 }
 
 .white h2{
@@ -18,6 +23,10 @@
 .green.down {
     margin-top: 5%;
     padding: 5% 0;
+    @media (min-width: 768px){
+        margin-top: 3%;
+        padding: 3% 0;
+    }
 }
 
 .green h2{
@@ -33,6 +42,9 @@
 
 .green.down .textbox{
     text-align: left;
+    @media (min-width: 768px){
+        font-size: 1.4rem;
+    }
 }
 
 .findout{
@@ -44,6 +56,7 @@
 
 .margina {
     margin-bottom: 5%;
+    @media (min-width: 768px){
+        margin-top: 5%;
+    }
 }
-
-

@@ -29,9 +29,11 @@
 
 .copyright {
     font-size:.8rem;
+    @media (min-width: 768px){
+        margin-top: 10%;
+    }
 }
 
 .copyright span{
     color:grey;
 }
-
