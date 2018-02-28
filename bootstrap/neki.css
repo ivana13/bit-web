@@ -1,0 +1,29 @@
+.row {
+width: 100%;
+}
+
+
+.bla {
+    
+    background-color: white;
+}
+.col-8 {
+  
+     
+    
+}
+
+.col-4{
+background-color: teal;
+}
+
+.col-6 {
+background-color: slateblue;
+}
+
+.bla {
+background-color: slateblue;
+color:white;
+margin: 10px;
+
+}
