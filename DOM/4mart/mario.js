@@ -1,5 +1,5 @@
-var mario = document.querySelector(".stay");
-var marioRun = document.querySelector(".run");
+var stay = document.querySelector(".stay");
+var run = document.querySelector(".run");
 var bg = document.querySelector(".bg");
 bg.style.backgroundPositionX = '100px';
 var interval = "";
