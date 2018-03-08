@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p></p>
+    <script>
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET", "https://freegeoip.net/xml/4.2.2.2");
+        xmlhttp.send();
+
+        xmlhttp.onload = function () {
+
+
+            var xmlDoc = xmlhttp.responseXML;
+
+            xmlDoc.querySelector('IP');
+            var a = xmlDoc.querySelector('IP').textContent;
+
+            var p = document.querySelector('p');
+            // console.log(xmlDoc);
+            
+
+            // var calc = new Calculator();
+            // calc.add(1).substract(10).add(10);
+            // var x = calc.add(10);
+            // console.log(x); // x.substract()
+            
+            console.log(a);
+
+
+            //    console.log( xmlDoc.querySelector('IP'));
+
+            //    console.log(xmlDoc);
+
+
+
+
+        }
+    </script>
+</body>
+
+</html>
