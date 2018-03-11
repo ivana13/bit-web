@@ -17,7 +17,7 @@ const dataModule = (() => {
 
 const uiModule = () => ({
 
-    const displayUsers = (uses) => {
+    const displayUsers = (users) => {
         users.forEach
     }
 
